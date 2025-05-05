@@ -83,7 +83,7 @@ function LoginForm() {
 
             <Form.Item>
               <Button type="primary" htmlType="submit" block>
-                Iniciar sesión
+                Iniciar sesión - Gerson Castellanos
               </Button>
             </Form.Item>
 
