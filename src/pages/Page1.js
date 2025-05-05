@@ -1,11 +1,13 @@
-import React from 'react';
-import { Card } from 'antd';
+import React from "react";
+import TodoList from "../components/TodoList";
+import { Provider } from "react-redux";
+import store from "../store";
 
 const Page1 = () => {
   return (
-    <Card title="Página 1" style={{ width: 300, margin: 'auto', marginTop: 50, textAlign: 'center' }}>
-      <p>Contenido de la Página 1</p>
-    </Card>
+    <Provider store={store}>
+      <TodoList />
+    </Provider>
   );
 };
 
